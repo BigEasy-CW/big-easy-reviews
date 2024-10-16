@@ -3,43 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Big Easy Canary Wharf - Review</title>
+    <title>Big Easy Canary Wharf - Review Us</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            margin-top: 50px;
-        }
-        .container {
-            display: inline-block;
-            padding: 20px;
-            border: 1px solid #ddd;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin: 50px;
+            background-color: #f4f4f4;
         }
         h1 {
             color: #333;
         }
-        .button {
-            display: block;
-            width: 200px;
-            padding: 10px;
-            margin: 15px auto;
-            background-color: #007BFF;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
+        .button-container {
+            margin-top: 20px;
         }
-        .button:hover {
+        .review-button {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px 25px;
+            font-size: 18px;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .review-button:hover {
             background-color: #0056b3;
+        }
+        .review-button.tripadvisor {
+            background-color: #34e5a6;
+        }
+        .review-button.tripadvisor:hover {
+            background-color: #1cb784;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Leave a Review for Big Easy Canary Wharf</h1>
-        <a href="https://www.google.com/search?q=big+easy+canary+wharf&oq=big&gs_lcrp=EgZjaHJvbWUqDwgAECMYJxjjAhiABBiKBTIPCAAQIxgnGOMCGIAEGIoFMhUIARAuGCcYrwEYxwEYgAQYigUYjgUyBggCEEUYOzIGCAMQRRg5MhMIBBAuGK8BGMcBGLEDGIAEGI4FMgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEIMTk4MWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x487602b71630968f:0x9ad949e10f1cb467,3,,,," class="button" target="_blank">Google Review</a>
-        <a href="https://www.tripadvisor.co.uk/UserReviewEdit-g186338-d8800509-Big_Easy_Canary_Wharf-London_England.html" class="button" target="_blank">TripAdvisor Review</a>
+    <h1>Leave a Review for Big Easy Canary Wharf</h1>
+    <p>We'd love to hear your feedback! Choose your preferred platform to leave a review.</p>
+    
+    <div class="button-container">
+        <a href="https://www.google.com/search?q=big+easy+canary+wharf&oq=big&gs_lcrp=EgZjaHJvbWUqDwgAECMYJxjjAhiABBiKBTIPCAAQIxgnGOMCGIAEGIoFMhUIARAuGCcYrwEYxwEYgAQYigUYjgUyBggCEEUYOzIGCAMQRRg5MhMIBBAuGK8BGMcBGLEDGIAEGI4FMgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEIMTk4MWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x487602b71630968f:0x9ad949e10f1cb467,3,,,," class="review-button google">Review on Google</a>
+        
+        <a href="https://www.tripadvisor.co.uk/UserReviewEdit-g186338-d8800509-Big_Easy_Canary_Wharf-London_England.html">Review on TripAdvisor</a>
     </div>
 </body>
 </html>
